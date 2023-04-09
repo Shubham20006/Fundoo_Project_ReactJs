@@ -1,0 +1,111 @@
+.NoteBox {
+    position: relative;
+    top: 60px;
+    width: 100vw;
+    height: 20vh;
+    
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 48.5%;
+    height: 17vh;
+    padding: 10px;
+   
+}
+
+.titlebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.Iconleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    color: rgb(90, 90, 90);
+    height: 100%;
+    cursor: pointer;
+}
+
+.iconside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    outline: none;
+    border-style: none;
+}
+
+#inp1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border-style: none;
+}
+
+.bt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+button {
+    color: rgb(90, 90, 90);
+    border-style: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#Pinicon {
+    cursor: pointer;
+}
+
+@media (max-width:580px) {
+    .NoteBox {
+        position: relative;
+        top: 60px;
+        left: 55px;
+        height: 23vh;
+        width: 73vw;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 0px;
+        position: relative;
+        top: 0px;
+        padding: 10px;
+        width: 100%;
+        height: 17vh;
+    }
+}

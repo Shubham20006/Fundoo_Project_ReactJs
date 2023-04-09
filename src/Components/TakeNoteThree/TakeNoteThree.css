@@ -1,0 +1,25 @@
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;  
+    padding: 5px;
+    }
+.Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 19vw;
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+}
+.titlebox,.descreptionBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 17vw;
+    height: 5vh;
+}

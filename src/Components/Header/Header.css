@@ -1,0 +1,29 @@
+.HeaderContent{
+    background-color: white;
+    border-bottom: 0.5px solid rgb(110, 110, 110);
+}
+
+.H1{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+#keep{
+  position: relative;
+  bottom: 6px;
+}
+#ic1{
+    font-size: 34px;
+    color: yellow;
+}
+#Srch{
+    color: rgb(110, 110, 110);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+

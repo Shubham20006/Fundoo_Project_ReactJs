@@ -1,0 +1,251 @@
+.ABC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.abc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+}
+#I1{
+    justify-content: flex-start;
+}
+#I2{
+    justify-content: flex-end;
+}
+.outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 60%;
+    border: 1px solid rgb(218, 214, 214);
+    padding: 40px;
+    border-radius: 2%;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+}
+
+.eachbox1 {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2px;
+}
+
+#Glogo img {
+    height: 60px;
+}
+
+#txt1 {
+    font-size: 25px;
+}
+
+#txt2,
+#txt3 {
+    font-size: 12px;
+    color: rgb(116, 115, 115);
+}
+
+#usemy {
+    color: blue;
+    cursor: pointer;
+}
+
+#inputname,
+#usemy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#inputPass,
+#username {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 12%;
+}
+
+#inputUser {
+    width: 100%;
+}
+
+.pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    font-size: 15px;
+}
+
+.right img {
+    width: 250px;
+}
+
+#Content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 13%;
+    color: rgb(90, 90, 90);
+}
+
+a {
+    color: rgb(100, 100, 223);
+}
+
+@media (max-width:700px) {
+    .ABC {
+        height: 140vh;
+    }
+
+    .outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+        width: 90%;
+        padding: 0px 0px 20px 0px;
+
+    }
+
+    #username {
+
+        width: 100%;
+        height: 7%;
+        margin: 10px 0px;
+    }
+
+    #usemy {
+        height: 50px;
+    }
+
+    .eachbox1 {
+        width: 100%;
+        height: 10%;
+    }
+
+    .left {
+        height: 100%;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 40%;
+        width: 80%;
+    }
+
+    #inputname {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100px;
+        margin: 10px 0px;
+    }
+
+    .pass {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 65%;
+    }
+
+    #inputPass {
+        height: 150px;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    #txt2,
+    #txt3 {
+        height: 20%;
+        font-size: 15px;
+    }
+
+    .abc {
+        width: 100%;
+    }
+    #bt,#check{
+        height: 60px;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+    .ABC {
+        height: 120vh;
+    }
+
+    .outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 95%;
+        width: 70%;
+        padding: 10px 0px 0px 0px;
+
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+        width: 70%;
+        padding: 10px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 60%;
+        padding: 0px 0px 20px 0px;
+    }
+}
